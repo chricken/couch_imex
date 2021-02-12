@@ -1,0 +1,38 @@
+.export {
+    position: relative;
+    padding:5px;
+    margin:5px;
+    background: #eee;
+    border-bottom: 1px solid #888;
+}
+
+span.legend::after {
+    content: ' ';
+}
+.hidden {
+    display: none;
+}
+#login {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+}
+.importer {
+    position: relative;
+    background: #ddd;
+    margin-bottom:5px;
+}
+.textausschnitt {
+    position: relative;
+    max-height: 40px;
+    overflow-y: scroll;
+    background: #fff;
+    margin: 10px;
+    padding: 5px;
+    font-size: 10px;
+    color: #333;
+    border: #333 1px solid;
+}
